@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:22-slim
 
 # ffmpeg + ffprobe are required for transcoding.
 RUN apt-get update \
